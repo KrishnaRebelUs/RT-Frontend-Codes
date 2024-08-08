@@ -1,0 +1,19 @@
+.marquee {
+    overflow: hidden;
+}
+.marquee ul {
+    animation: marquee 20s linear infinite;
+}
+.marquee li {
+    display: block;
+    padding: 10px 0;
+    position: relative;
+    top: 5px;
+}
+.marquee li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+@keyframes marquee {
+    0% { transform: translateY(0); } 
+    100% { transform: translateY(-55%); } 
+}

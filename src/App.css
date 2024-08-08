@@ -1,0 +1,316 @@
+/*--- Table Style ----*/
+:root {
+  /* --primary: #18244d; */
+  --secondary-light: #f4f5f9;
+  --accent: #f48124;
+}
+body{
+  overflow-x: hidden ;
+}
+div .czCoqD {
+  color: var(--primary);
+}
+div .epZUJV {
+  border: 1px solid var(--primary);
+  margin: 0 10px;
+}
+div .button svg {
+  color: var(--primary);
+}
+
+.fpBGKh .erkbiK div:first-child {
+  white-space: pre-wrap;
+  color: #000;
+}
+
+div .lnOUep {
+  white-space: pre-wrap !important;
+  font-size: 14px !important;
+  padding: 5px 0 !important;
+  overflow: visible !important;
+}
+.sc-gjLLEI:disabled {
+  color: var(--primary) !important;
+  fill: var(--primary) !important;
+}
+.MuiDataGrid-scrollbar,
+.MuiDataGrid-footerContainer {
+  display: none !important;
+}
+.MuiDataGrid-virtualScrollerContent,
+.MuiDataGrid-row {
+  width: 700px !important;
+}
+.MuiDataGrid-row {
+  border-bottom: 1px solid #eee !important;
+}
+.css-an1k1n-MuiDataGrid-root .MuiDataGrid-cell {
+  height: 40px !important;
+}
+.css-an1k1n-MuiDataGrid-root
+  .MuiDataGrid-virtualScrollerContent
+  .MuiDataGrid-row {
+  display: flex !important;
+  align-items: center !important;
+}
+.css-an1k1n-MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+  display: flex !important;
+  align-items: center !important;
+}
+/*---- Grid Table ---*/
+.MuiDataGrid-topContainer,
+.MuiDataGrid-columnHeaders,
+.css-yrdy0g-MuiDataGrid-columnHeaderRow,
+.MuiDataGrid-columnHeaders .css-k008qs {
+  background-color: var(--primary) !important;
+  color: #fff;
+  font-size: 14px;
+}
+.css-an1k1n-MuiDataGrid-root
+  .MuiDataGrid-virtualScrollerContent
+  .MuiDataGrid-row {
+  height: 22px !important;
+}
+.css-15i0y2w .MuiDataGrid-cell {
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+}
+/*---- Manage Dispute Form ---*/
+.dispute-form label {
+  color: #183d72 !important;
+  font-size: 16px !important;
+}
+.dispute-form input {
+  padding: 10px 14px;
+  background-color: var(--secondary-light);
+  border-radius: 7px;
+  color: var(--primary);
+  font-weight: 700;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: 1px solid var(--secondary-light);
+}
+.dispute-form .MuiInputBase-root {
+  margin-top: 10px;
+}
+.dispute-form fieldset {
+  border: 1px solid var(--secondary-light);
+  border-radius: 7px;
+  color: var(--primary);
+}
+.dispute-form fieldset:hover {
+  border: 1px solid var(--primary);
+}
+.dispute-form .css-13cymwt-control,
+.dispute-form .css-t3ipsp-control {
+  width: 120px;
+  height: 38px;
+  display: flex;
+  font-size: 16x !important;
+  font-weight: 700;
+  align-items: center;
+  background-color: var(--secondary-light);
+  border-radius: 7px;
+}
+.dispute-form .css-13cymwt-control input,
+.dispute-form .css-t3ipsp-control input {
+  padding: 0;
+}
+.dispute-form .css-1u9des2-indicatorSeparator {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.dispute-form .css-4xgw5l-IndicatorsContainer2 {
+  height: 42px;
+}
+.dispute-form .css-w9q2zk-Input2 {
+  padding: 0;
+  margin: 0;
+}
+.dispute-form .css-b62m3t-container {
+  margin-top: 10px;
+}
+.dispute-form .css-1dimb5e-singleValue {
+  font-weight: 700;
+  color: var(--primary);
+}
+.dispute-form .css-1xc3v61-indicatorContainer {
+  color: var(--primary);
+  font-weight: bolder;
+}
+.dispute-table span {
+  margin: 0;
+  padding: 0;
+}
+/*--- Search Box ---*/
+.search-box .MuiInputBase-formControl {
+  padding: 5px 10px !important;
+  border-radius: 7px;
+  border: none !important;
+  background-color: var(--secondary-light);
+  color: #000;
+}
+.search-box fieldset{
+  border: none;
+}
+.css-1b6xtd7-MuiAutocomplete-listbox {
+  max-height: 60vh !important;
+}
+ul li.MuiAutocomplete-option:nth-child(even) {
+  background-color: var(--secondary-light) !important;
+}
+ul li.MuiAutocomplete-option {
+  font-weight: 500;
+  font-size: 16px;
+  color: #89868d;
+}
+.search-box .MuiInputBase-formControl input {
+  color: #000;
+}
+/*--- Breadcrumb ---*/
+.MuiBreadcrumbs-li a {
+  color: #000;
+  font-size: 16px;
+}
+.MuiBreadcrumbs-li a:hover {
+  color: #285a9e;
+  text-decoration: underline !important;
+}
+.MuiBreadcrumbs-li a.active {
+   text-decoration: none !important;
+   color:  var(--primary);
+
+}
+/*--- Tabs ---*/
+
+.MuiTabs-fixed
+  .MuiTabs-flexContainer
+  .css-mpo1kn-MuiButtonBase-root-MuiTab-root {
+  color: #000 !important;
+}
+.MuiTabs-flexContainer .css-k008qs {
+  margin-top: -8px;
+}
+.css-1hv2he7 {
+  border-bottom: 2px solid rgb(229, 234, 239);
+}
+.MuiTabs-fixed
+  .MuiTabs-flexContainer
+  .css-mpo1kn-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--accent) !important;
+}
+.MuiTabs-indicator {
+  background-color: var(--accent) !important;
+}
+/*--- Win Rate --*/
+.win-rate-text,
+.win-rate-number {
+  position: relative;
+}
+.win-rate-text::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(201, 240, 218);
+}
+.win-rate-number::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: -49px;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(42, 198, 112);
+}
+.dispute-table .mHisf.rdt_TableHeadRow {
+  background-color: #00a15d !important;
+  padding: 5px 0;
+}
+/*--- Update Tab ---*/
+
+.finops-tab button {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+}
+.finops-tab {
+  border-bottom: 1px solid #eee !important;
+}
+.finops-tab button.Mui-selected {
+  color: var(--accent);
+}
+div .css-clttge-MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.dispute-table .rdt_TableHeadRow {
+  background-color: #00a15d !important;
+  color: #fff !important;
+}
+div.css-2dvya8 .MuiAutocomplete-inputRoot {
+  flex-wrap: nowrap !important;
+  display: flex !important;
+}
+.invoice-table .css-14ed2bs-MuiTableHead-root{
+  background-color: var(--primary);
+}
+
+/*--- recoupend-amount ---*/
+.recoupend-amount{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+/*--- Update ---*/
+.updates-card .MuiCardContent-root{
+  height: 485px;
+}
+/*--- Assesment tab ---*/
+
+.assesment-tab button.Mui-selected{
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 10px
+}
+.assesment-tab button{
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 10px
+}
+.assesment-tab button.Mui-selected::before{
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  width: 100%;
+  height: 2px;
+  background-color: #f48124;
+}
+.assesment-tab .MuiTabs-indicator{
+   display: none;
+}
+/*---- Scroll Bar ---*/
+
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+::-webkit-scrollbar-track {
+  background: var(--secondary-light); 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent);
+}
+/*---- Table ----*/
+table{
+  white-space: pre-wrap !important;
+}

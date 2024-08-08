@@ -1,0 +1,21 @@
+:root {
+    --primary: #285a9e;
+    --primary-light: rgb(236, 242, 255);
+}
+.sc-dmyCSP.rdt_TableHeadRow {
+    background-color: var(--primary);
+    color: #fff;
+}
+.sc-guDLey.rdt_TableHead, .rdt_TableCell {
+    font-size: 14px;
+    font-weight: 500;
+}
+div.evaFvq {
+    position: inherit;
+}
+div.sc-jsEeTM, div.sc-jsEeTM:not(:last-of-type) {
+    border: none;
+}
+div.sc-jsEeTM:nth-child(even) {
+    background-color: var(--primary-light);
+}

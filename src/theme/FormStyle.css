@@ -1,0 +1,129 @@
+:root {
+	--primary: #285a9e;
+	--primary-light: rgb(236, 242, 255);
+}
+
+div.css-art2ul-ValueContainer2, div.accountStyle .css-13cymwt-control{
+	padding: 0;
+}
+div.css-hlgwow{
+	padding: 0 15px !important;
+}
+.currency-slector .css-art2ul-ValueContainer2 .css-1dimb5e-singleValue, .currency-slector .css-art2ul-ValueContainer2{
+	padding-left: 7px !important;
+	color: #fff;
+}
+.currency-slector  .css-w9q2zk-Input2 input,
+.currency-slector .css-feonkk-Input2{
+	padding-left: 7px !important;
+    color: #fff;
+}
+.currency-slector .css-w9q2zk-Input2,
+.currency-slector .css-w9q2zk-Input2 input,
+.currency-slector input#react-select-5-input {
+	color: #fff !important;
+	padding-left: 7px;
+}
+.accountStyle .css-art2ul-ValueContainer2 .css-1dimb5e-singleValue{
+	padding-left: 0;
+}
+.accountStyle .css-1dimb5e-singleValue{
+	padding-left: 25px
+}
+div .css-13cymwt-control, div .css-t3ipsp-control {
+	border: none !important;
+	background-color: var(--primary-light);
+	border-radius: 4px;
+	box-shadow: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+	width: 100%;
+}
+
+.currency-slector {
+	max-width: 150px !important;
+}
+
+div .css-tr4s17-option {
+	background-color: var(--primary);
+}
+.accountStyle {
+	position: relative;
+}
+.accountStyle_icon {
+	position: absolute;
+	top: 18.5px;
+	left: 91px;
+	z-index: 9;
+	color: var(--primary);
+}
+
+.accountStyle_icon svg {
+	width: 18px;
+}
+
+.accountStyle div.css-art2ul-ValueContainer2, div.accountStyle .css-hlgwow  {
+	padding-left: 40px;
+}
+.currency-slector .css-13cymwt-control {
+	background-color: var(--primary);
+}
+
+
+.currency-slector .css-t3ipsp-control {
+	background-color: var(--primary);
+	border-radius: 4px;
+	border: 1px solid var(--primary);
+}
+
+.currency-slector .css-t3ipsp-control:hover,
+.currency-slector .css-13cymwt-control:hover,
+div.css-13cymwt-control:hover,
+div.css-13cymwt-control:focus {
+	border: none;
+}
+
+.currency-slector .css-1dimb5e-singleValue {
+	color: #fff;
+}
+
+.currency-slector svg.css-tj5bde-Svg {
+	fill: #fff;
+}
+
+.currency-slector .css-1u9des2-indicatorSeparator {
+	opacity: 0.5;
+}
+/*--- Missed Invoice Search ---*/
+.missed-search .MuiInputBase-formControl{
+	background-color: var(--primary-light);
+	border-radius: 7px;
+	padding: 5px 12px;
+	height: 45px;
+}
+.missed-search .MuiInputBase-formControl input{
+	color: #000 !important;
+	font-weight: 600;
+}
+.missed-search .MuiInputBase-formControl fieldset{
+   border: none !important;
+}
+/*---- Select Search ----*/
+.select-search::before,.select-search::after{
+	border: none !important;
+
+}
+.select-search .css-a5avet-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before, .css-a5avet-MuiInputBase-root-MuiInput-root::after{
+	border: none !;
+}
+.select-search{
+	background-color: var(--primary-light);
+	border-radius: 7px;
+	width: 100%;
+}
+.select-search div{
+	width: 100%;
+	padding: 10px;
+	padding-left: 40px;
+}

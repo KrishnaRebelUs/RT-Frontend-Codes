@@ -1,0 +1,103 @@
+:root{
+	--primary: #18244d;
+	--secondary-light: #F4F5F9;
+}
+.dropdown {
+	width: 100%;
+}
+
+.dropdown ul{
+	list-style-type: none;
+}
+  @media (min-width: 768px) {
+	.dropdown {
+	  width: 100%;
+	}
+  }
+  .dropdown__switch:checked + .dropdown__options-filter .dropdown__select {
+	transform: scaleY(1);
+  }
+  .dropdown__switch:checked + .dropdown__options-filter .dropdown__filter:after {
+	transform: rotate(-135deg);
+  }
+  .dropdown__options-filter {
+	width: 100%;
+	cursor: pointer;
+  }
+  .dropdown__filter {
+	position: relative;
+	display: flex;
+	padding: 10px 14px;
+	background-color:  var(--secondary-light);
+	border: 1px solid var(--secondary-light);
+	border-radius: 7px;
+	font-size: 14px;
+  }
+  .dropdown__filter:focus {
+	border: 1px solid var(--primary);
+	outline: none;
+  }
+  .dropdown__filter::after {
+	position: absolute;
+	top: 45%;
+	right: 20px;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid #595959;
+	border-bottom: 2px solid #595959;
+	transform: rotate(45deg) translateX(-45%);
+	transition: 0.2s ease-in-out;
+  }
+  .dropdown__select {
+	position: absolute;
+	top: 100%;
+	left: -48px;
+    width: 600px;
+	margin-top: 5px;
+	overflow: hidden;
+	transform: scaleY(0);
+	transform-origin: top;
+	font-weight: 300;
+	transition: 0.2s ease-in-out;
+	border-radius: 7px;
+	background-color: #fff;
+	padding: 30px 60px 30px 70px;;
+
+  }
+  .dropdown__select-option {
+	padding: 10px;
+    background-color: #fff;
+    transition: 0.3s;
+    display: flex;
+    column-gap: 10px;
+	background-color: var(--secondary-light);
+	margin-top: 10px;
+	align-items: center;
+	color: #89868D;
+	font-weight: 500;
+	font-size: 16px;
+  }
+  .dropdown__select-option:hover{
+	background-color: var(--secondary-light);
+  }
+  .dropdown__select-option:nth-child(2){
+    background-color: #fff;
+	border: 1px solid var(--secondary-light);
+	padding: 10px;
+	border-radius: 7px;
+	width: 100%;
+  }
+  .dropdown__select-option:nth-child(2):hover{
+      background-color: transparent;
+  }
+  .dropdown__select-option:nth-child(2) input{
+	border: none;
+  }
+  .dropdown__select-option input[type="checkbox"]{
+	height: 20px;
+	width: 22px;
+  }
+  .dropdown__select-option:last-of-type {
+	border-bottom: 0;
+  }
